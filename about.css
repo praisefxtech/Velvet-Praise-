@@ -18,7 +18,7 @@ ul{
    justify-content: end;
    justify-content: space-between;
    align-items: center;
-   font-size: bold;
+   font-size: 50px;
  }
 .container{
   width: 80%
