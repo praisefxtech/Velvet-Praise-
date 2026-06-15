@@ -1,0 +1,51 @@
+body{
+  background: darkblue;
+  color: #f4f4f4;
+  font-family: Trebuchet MS, helvetica, Sans-Serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-image: url('../Images/logo.jpg');
+  min-height: 50px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  background-position: center center;
+  background-size: 150%;
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.box{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.video-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-container video{
+    width: 200px;
+    border-radius: 10px;
+}
+
+h1{
+  border-bottom-style: double;
+  font-size; bold;
+}
+
+@media (max-width: 768px{
+  
+})
