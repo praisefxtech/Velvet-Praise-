@@ -2,9 +2,9 @@ body{
   background: darkblue;
   color: #f4f4f4;
   font-family: Trebuchet MS, helvetica, Sans-Serif;
-  font-size: 15px;
-  line-height: 1.5;
-  background-image: url('Images/logo.jpg');
+  font-size: 30px;
+  line-height: 2.0;
+  background-image: url("./logo.jpg");
   min-height: 50px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
@@ -46,6 +46,6 @@ h1{
   font-size; bold;
 }
 
-@media (max-width: 768px{
+@media (max-width: 768px){
   
 })
