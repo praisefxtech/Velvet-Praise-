@@ -18,11 +18,11 @@ ul{
    justify-content: end;
    justify-content: space-between;
    align-items: center;
-   font-size: 50px;
+   font-size: 20px;
  }
 .container{
   width: 80%
-  margin: auto;
+  margin: auto 5px;
   overflow: hidden;
   padding-left: 20px;
 }
