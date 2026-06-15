@@ -4,15 +4,12 @@ body{
   font-size: bold;
   line-height:1.5;
   margin: 0;
-  margin-left: 20px;
 }
 ul{
   list-style-type: none;
 }
 .nav a{
   text-decoration: none;
-  box-sizing: border-box;
-  line-height: 1.5;
 }
  .nav{
    display: flex;
@@ -20,6 +17,7 @@ ul{
    height: 50px;
    justify-content: end;
    justify-content: space-between;
+   align-items: center;
  }
 .container{
   width: 80%
