@@ -8,7 +8,25 @@
            publicKey: "Fa6zpos_rNNBxo_AY",
          });
     </script>
-    
+    <script>
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm(
+        "service_l5xvv74",
+        "template_cf2pp9n",
+        this
+    )
+    .then(() => {
+        alert("Message sent successfully!");
+        this.reset();
+    })
+    .catch((error) => {
+        alert("Failed to send message.");
+        console.log(error);
+    });
+});
+          </script>
 </body>
     <h1>Contact Us</h1>
     <p>Get in touch with Velvet Praise for custom tailoring and fashion inquiries.</p>
