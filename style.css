@@ -5,7 +5,7 @@
   padding: 0;
 }
 body{
-  background-image: url('../Images/logo.jpg');
+  background-image: url('Images/logo.jpg');
   background-color: brown;
   background-size: 500px 1000px;
   background-repeat: no-repeat;
