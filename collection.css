@@ -4,7 +4,7 @@ body{
   font-family: Trebuchet MS, helvetica, Sans-Serif;
   font-size: 15px;
   line-height: 1.5;
-  background-image: url('../Images/logo.jpg');
+  background-image: url('Images/logo.jpg');
   min-height: 50px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
