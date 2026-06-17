@@ -1,7 +1,7 @@
 body{
   background: gold;
   font-family: tahoma, geneva,sans-serif
-  font-size: bold 100px;
+  font-size: 100px;
   line-height: 2;
   margin: 0;
 }
@@ -42,7 +42,7 @@ h2{
     }
 
     .boxes h4 i{
-        font-size: 20px;
+        font-size: 50px;
         min-width: 25px;
     }
 }
